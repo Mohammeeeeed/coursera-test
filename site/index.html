@@ -3,7 +3,6 @@
 <head>
 	<title>Aleppo Guide</title>
 	<style>
-
  .text{
   color: brown;
   font-size: 20px;
@@ -22,16 +21,44 @@ background-color: rgb(255,255,153)
  #food{
  	background-color:#c2fcd2;
  }
-
- 
+ ul #food2 {
+ 	list-style: none;
+ }
+header li{
+	 list-style: none;
+}
+ #links a:link,a:visited {
+  text-decoration: none;
+  color: brown;
+  background-color: rgb(255,255,153);
+  border: 1px solid rgb(214, 214, 84);
+  display: block;
+  width: 500px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+header li a:hover, a:active {
+  background-color: rgb(245, 245, 98);
+  color: purple;
+}
+article li ul li:nth-child(odd) {
+  background-color: gray;
+  width: 100px;
+}
+ header ul  {
+ 	margin: 0 0 0 400px
+ }
+ #food3 li:nth-child(2):hover {
+  background-color: green;
+  cursor: pointer;
+}
 </style>
-
 </head>
 <body>
-	<header></header>
+	<header>
 <h1 id="top" style="color: green ; font-size: 60px;text-align: center;">Aleppo City</h1>
 <p style="margin: 0 100px 0 100px;font-size: 1.5em">&lt;&lt;Aleppo is the best city in the world&gt;&gt;  ,&nbsp;I&nbsp;am&nbsp;from&nbsp;Syria.Alzahraa</p>
-<ul>
+<ul id="links">
 	<li><a href="#economy">More information about Economy</a></li>
 	<li><a href="#history">More information about History</a></li>
 </ul>
@@ -42,7 +69,8 @@ background-color: rgb(255,255,153)
 <img src="salahodeen.jpg" width="200" height="235" alt="Picture of salahodeen">
 <img src="aomaoi.jpg" width="405" height="235" alt="Picture of aomaoi">
 </p>
-  
+  </header>
+
  <div>*** chapter1 : God bless Syria ***
  	<span>chocolate</span>
  </div>
@@ -63,7 +91,7 @@ Very few physical remains have been found from the Roman and Byzantine periods i
   <ul>
   	<li>delecios</li>
   	<li>make you fat</li>
-  	<li>ingrediants :	<ul>
+  	<li>ingrediants :	<ul id="food2">
 						<li>groats</li>
 						<li>meat</li>
 						<li>Onions</li>
@@ -75,7 +103,7 @@ Very few physical remains have been found from the Roman and Byzantine periods i
  <ul>
  	<li>bring groats</li>
  	<li>bring meat
- 			<ol>
+ 			<ol id="food3">
  				<li>get kharouf meat</li>
  				<li>use ta7oneh</li>
  				<li>put some tableh</li>
@@ -103,18 +131,19 @@ On 9 August 1138, a deadly earthquake ravaged the city and the surrounding area.
 In 1128, Aleppo became capital of the expanding Zengid dynasty, which ultimately conquered Damascus in 1154. In 1183, Aleppo came under the control of Saladin and then the Ayyubid dynasty. When the Ayyubids were toppled in Egypt by the Mamluks, the Ayyubid emir of Aleppo An-Nasir Yusuf became sultan of the remaining part of the Ayyubid Empire. He ruled Syria from his seat in Aleppo until, on 24 January 1260,[59] the city was taken by the Mongols under Hulagu in alliance with their vassals the Frankish knights of the ruler of Antioch Bohemond VI and his father-in-law the Armenian ruler Hetoum I.[60] The city was poorly defended by Turanshah, and as a result the walls fell after six days of siege, and the citadel fell four weeks later. The Muslim population was massacred and many Jews were also killed.[61] The Christian population was spared. Turanshah was shown unusual respect by the Mongols, and was allowed to live because of his age and bravery. The city was then given to the former Emir of Homs, al-Ashraf, and a Mongol garrison was established in the city. Some of the spoils were also given to Hethoum I for his assistance in the attack. The Mongol Army then continued on to Damascus, which surrendered, and the Mongols entered the city on 1 March 1260.
  	</p>
  </section>
-  <a href="CheckForHelp.html" title="check for help">
+  <a style="color: blue", href="CheckForHelp.html" title="check for help">
       <div> Simple way to get more help</div>
     </a>
 <br>
 <p>
+
       My facebook page
       <!-- link to Facebook page WITH TARGET-->
-      <a href="https://www.facebook.com/mohammed.sabbagh.90/" 
+      <a style="color: blue", href="https://www.facebook.com/mohammed.sabbagh.90/" 
       target="_blank" title="View My Page!">Web Developer Mohamad Sabbagh</a>
     </p>
     <p>
-      Back to top: <a href="#top">Back to Top</a>
+      Back to top: <a style="color: blue"; href="#top">press here!</a>
     </p>
 <footer>
 	<hr>
